@@ -1,0 +1,9 @@
+﻿Names of Birds
+
+Peacock	ময়ূর
+Cock	মোরগ
+Crow	কাক
+Crane	বক
+Cuckoo	কোকিল
+Kite	চিল
+Owl		পেঁচা

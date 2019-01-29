@@ -1,0 +1,10 @@
+﻿Planets in bengali 
+বুধ		Mercury
+শুক্র		Venus
+পৃথিবী		Earth
+মঙ্গলগ্রহ	Mars
+বৃহস্পতি	Jupiter
+শনি		Saturn
+ইউরেনাস	Uranus
+নেপচুন		Neptune
+প্লুটো		Pluto

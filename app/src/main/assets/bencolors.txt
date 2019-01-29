@@ -1,0 +1,11 @@
+﻿COLORS IN BENGALI
+black		কলও
+white		সড রওন্গ্	
+gray			দুসওর্ রওন্গ্
+blue			নিল্ রওন্গ্	
+green		সওবুজ্ রওন্গ্
+brown			বডমি রওন্গ্	
+purple			বএগুনি রওন্গ্
+red			লল্ রওন্গ্	
+orange		cওমওল রওন্গ্
+yellow			হওলুড্ রওন্গ্	

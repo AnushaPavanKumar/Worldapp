@@ -1,0 +1,23 @@
+﻿one			ak,  -		অক্, অক্মট্রও
+two			dui, -		ডুই,
+three		tin -		টিন্
+four		char - 		চর্
+five		pnach - 	প্নচ্
+six			soy -		সওয্
+seven		sat - 		সট্
+eight		aat -		আট্
+nine		noy - 		নওয্
+ten			dos -		ডওস্
+eleven		agaro -		অগরও
+twelve		baro - 		বরও
+thirteen	tero -		টএরও
+fourteen	choddo -	চওড্ডও
+fifteen		ponero -	পওনএরও
+sixteen		solo - 		সওলও
+seventeen	sotero - 	সওটএরও
+eighteen	atharo - 	অতরও
+nineteen	unish -		উনিশ্
+twenty		bish - 		বিশ্
+hundred		aksoto, -	অক্সওটও, অক্সও
+one 
+thousand	ak hajar, - অক্ হজর্,

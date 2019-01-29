@@ -1,0 +1,12 @@
+﻿Vehicles
+Aeroplane 	বিমান
+Ambulance	অ্যাম্বুলেন্স
+Auto 		অটো
+Bike 		সাইকেল
+Boat		নৌকা
+Car 		গাড়ী
+Cycle		চক্র
+Jeep		জীপ্
+Lorry		লরি
+Ship		জাহাজ
+Train		রেলগাড়ি

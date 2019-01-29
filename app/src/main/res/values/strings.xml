@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">Worldapp</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_text"> Educational App </string>
+
+
+    <!-- Activity Titles -->
+    <string name="HomeActivityTitle">Pavanusha Android Apps</string>
+    <string name="img"> Image</string>
+
+    <string name="telugu"> Learn Telugu Language</string>
+
+    <string name ="mcon"> Please swipe to see the next image</string>
+    <string name="back"> Please Press back button again</string>
+
+    <string name="ben"> Bengali </string>
+    <string name="sans">Devanagiri</string>
+    <string name="eng">English</string>
+    <string name="tam">Tamil</string>
+    <string name="tel"> Telugu </string>
+    <string name="mal"> Malayalam </string>
+    <string name="kan"> Kannada </string>
+    <string name="guj"> Gujarathi </string>
+    <string name="hin"> Hindi</string>
+
+
+    <string name="nxt"> Next </string>
+    <string name="prv"> Previous </string>
+
+
+    <string name="alphabets"> Alphabets</string>
+    <string name="animals">Animals</string>
+    <string name="birds">Birds</string>
+    <string name="colors">Colors</string>
+    <string name="fruits">Fruits</string>
+    <string name="lveg">Leafy Vegetables</string>
+    <string name="nos">Numbers</string>
+    <string name="planets"> Planets </string>
+    <string name="pro">Professions</string>
+    <string name="rel"> Relations </string>
+    <string name="shapes"> Shapes</string>
+    <string name="spicies">Spicies</string>
+    <string name="veg">Vegetables</string>
+    <string name="veh"> Vehicles</string>
+</resources>

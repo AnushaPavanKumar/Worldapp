@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="title_background">#28222222</color>
+    <color name="foreground1">#28568987</color>
+    <color name="itemselected">#EDEDED</color>
+    <color name="login_hover">#E5F5FA</color>
+    <color name="sign_out_color">#e84040</color>
+    <color name="grey">#ffffff</color>
+
+</resources>

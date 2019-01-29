@@ -1,0 +1,11 @@
+﻿Professions
+Anchor
+Doctor		ডাক্তার
+Fire Man	অগ্নিনির্বাপক
+Judge		বিচারক
+Lawyer		আইনজীবী
+Police		পুলিশ
+Singer 		গায়ক
+Teacher		শিক্ষক
+Writer 		লেখক
+Dancer		নর্তকী

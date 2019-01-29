@@ -1,0 +1,38 @@
+﻿SPICIES 
+English Name		Bengali Name	
+Asafoetida		হিং
+Bay Leaf		তেজ পাতা
+Black Cardamom	বড় এলাচ
+Black Cumin		কালো জিরা
+Black Pepper	গোল মরিচ
+Black Salt		কালো নুন
+Brown Mustard Seed	ছোট সর্ষে/রাই
+Caraway Seeds শাহ জিরা
+Carom/Thyme	জোয়ান
+Celery		রাধুনি
+Chili		লঙ্কা
+Cinnamon	দারচিনি
+Cloves		লবঙ্গ
+Coriander	ধনে
+Cumin		জিরা
+Dates		খেজুর 
+Fennel		মৌরি
+Fenugreek	মেথি
+Fenugreek Leaf	কাসুরি মেথি
+Garlic		রসুন
+Ginger		আদা
+Green Cardamom	ছোট এলাচ
+Holy Basil	তুলসী
+Mace			জৈত্রী
+Mustard	সর্ষে
+Nutmeg	জায়ফল
+Pickle	আচার
+Poppy Seeds	পোস্ত
+Saffron	জাফরান
+Salt	লবন/ নুন
+Sour Mango Powder আমচুর
+Spice Mixture	গরম মসলা
+Star Anise	চক্র ফুল
+Star Anise	গুয়ামৌরি
+Tamarind	তেতুল
+Turmeric	হলুদ

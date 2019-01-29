@@ -1,0 +1,29 @@
+﻿বিড়াল (biral) 		Cat 
+কুকুর (kukur) 			Dog 
+গাধা (gadha) 			Ass 
+ছাগল (chagōl) 		Goat 
+হরিণ (horin) 			Deer  
+ঁখেকশিয়াল (khekosiyal) Fox
+শূকর (sukōr) 			Hog 
+শূকরছানা (sukōrchana)	Pig 
+ভেড়া (bhera) 			Sheep 
+ছোট ঁইদুর (chotō idur)	Mouse 
+সিংহ (singhō)			Lion 
+বানর (banōr)			Monkey 
+ভললুক (bhōlluk) 		Bear
+বলদ (bōlōd)			Bull 
+ঁষাড় (sarō)			Ox 
+বড় ঁইদুর (bōrō idur)	Rat 
+ছুচো (chuco)			Mole 
+পশু (pōsu)			Beast 
+হাটী (hati)			Elephant 
+মহিষ (mōhis)			Buffalo 
+উট (ut) 				Camel 
+গরু (gōru)			Cow  
+ঘোড়া (ghora)			Horse 
+শৃগাল (srigal)			Jackel 
+বাঘ (bagh)			Tiger 
+খরগোস (khōrgos)		Hare 
+নেকড়ে বাঘ 
+(nekōre bagh)		Wolf 
+ বেজী (beji)			Mongoose 

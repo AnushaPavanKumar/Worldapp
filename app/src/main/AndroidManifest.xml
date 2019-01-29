@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.pavanusha.worldapp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Bengali" />
+        <activity android:name=".Devanagari" />
+        <activity android:name=".English" />
+        <activity android:name=".Gujarathi" />
+        <activity android:name=".Hindi" />
+        <activity android:name=".Kanada" />
+        <activity android:name=".Malayalam" />
+        <activity android:name=".Tamil" />
+        <activity android:name=".Telugu" />
+
+        <activity android:name=".Content" />
+        <activity android:name=".EContent" />
+
+        <activity android:name=".BAlphabets" />
+        <activity android:name=".BAnimals" />
+        <activity android:name=".BBirds" />
+        <activity android:name=".BColors" />
+        <activity android:name=".BFruits" />
+        <activity android:name=".BLVeg" />
+        <activity android:name=".BNos" />
+        <activity android:name=".BPlanets" />
+        <activity android:name=".BProfessions" />
+        <activity android:name=".BShapes" />
+        <activity android:name=".BSpicies" />
+        <activity android:name=".BVegetables" />
+        <activity android:name=".BVehicles" />
+
+        <activity android:name=".EAlphabets" />
+        <activity android:name=".EAnimals" />
+        <activity android:name=".EBirds" />
+        <activity android:name=".EColors" />
+        <activity android:name=".EFruits" />
+        <activity android:name=".ELVeg" />
+        <activity android:name=".ENos" />
+        <activity android:name=".EPlanets" />
+        <activity android:name=".EProfessions" />
+        <activity android:name=".EShapes" />
+        <activity android:name=".ESpicies" />
+        <activity android:name=".EVegetables" />
+        <activity android:name=".EVehicles" />
+
+
+
+        <activity android:name=".GAlphabets" />
+        <activity android:name=".GAnimals" />
+        <activity android:name=".GBirds" />
+        <activity android:name=".GColors" />
+        <activity android:name=".GFruits" />
+        <activity android:name=".GLVeg"/>
+        <activity android:name=".GNos" />
+        <activity android:name=".GPlanets" />
+        <activity android:name=".GProfessions" />
+        <activity android:name=".GShapes" />
+        <activity android:name=".GSpicies" />
+        <activity android:name=".GVegetables" />
+        <activity android:name=".GVehicles" />
+
+        <activity android:name=".HAlphabets" />
+        <activity android:name=".HAnimals" />
+        <activity android:name=".HBirds" />
+        <activity android:name=".HColors" />
+        <activity android:name=".HFruits" />
+        <activity android:name=".HLVeg" />
+        <activity android:name=".HNos" />
+        <activity android:name=".HPlanets" />
+        <activity android:name=".HProfessions" />
+        <activity android:name=".HShapes" />
+        <activity android:name=".HSpicies" />
+        <activity android:name=".HVegetables" />
+        <activity android:name=".HVehicles" />
+
+
+        <activity android:name=".KAlphabets" />
+        <activity android:name=".KAnimals" />
+        <activity android:name=".KBirds" />
+        <activity android:name=".KColors" />
+        <activity android:name=".KFruits" />
+        <activity android:name=".KLVeg"/>
+        <activity android:name=".KNos" />
+        <activity android:name=".KPlanets" />
+        <activity android:name=".KProfessions" />
+        <activity android:name=".KShapes" />
+        <activity android:name=".KSpicies" />
+        <activity android:name=".KVegetables" />
+        <activity android:name=".KVehicles" />
+
+        <activity android:name=".Malphabets" />
+        <activity android:name=".MAnimals" />
+        <activity android:name=".MBirds" />
+        <activity android:name=".MColors" />
+        <activity android:name=".MFruits" />
+        <activity android:name=".MLVeg" />
+        <activity android:name=".MNos" />
+        <activity android:name=".MPlanets" />
+        <activity android:name=".MProfessions" />
+        <activity android:name=".MShapes" />
+        <activity android:name=".MSpicies" />
+        <activity android:name=".MVegetables" />
+        <activity android:name=".MVehicles" />
+
+        <activity android:name=".TAlphabets"/>
+        <activity android:name=".TAnimals" />
+        <activity android:name=".TBirds" />
+        <activity android:name=".TColors" />
+        <activity android:name=".TFruits" />
+        <activity android:name=".TLVeg" />
+        <activity android:name=".TNos" />
+        <activity android:name=".TPlanets" />
+        <activity android:name=".TProfessions" />
+        <activity android:name=".TShapes" />
+        <activity android:name=".TSpicies" />
+        <activity android:name=".TVegetables" />
+        <activity android:name=".TVehicles" />
+
+
+        <activity android:name=".TelAlphabets" />
+        <activity android:name=".TelAnimals" />
+        <activity android:name=".TelBirds" />
+        <activity android:name=".TelColors" />
+        <activity android:name=".TelFruits" />
+        <activity android:name=".TelLVeg"/>
+        <activity android:name=".TelNos" />
+        <activity android:name=".TelPlanets" />
+        <activity android:name=".TelProfessions" />
+        <activity android:name=".TelRelations" />
+        <activity android:name=".TelShapes" />
+        <activity android:name=".TelSpicies" />
+        <activity android:name=".TelVegetables" />
+        <activity android:name=".TelVehicles" />
+    </application>
+
+
+</manifest>

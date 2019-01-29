@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#898989"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:fillViewport="true"
+    android:scrollbars="none" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+
+        <ImageButton
+            android:id="@+id/alphabets"
+            android:layout_width="920dp"
+            android:layout_height="347dp"
+            android:layout_gravity="center"
+            android:contentDescription="@string/alphabets"
+            android:padding="15dp"
+            android:src="@drawable/alphabets"
+            android:text="@string/alphabets"
+            android:textColor="#000000" />
+        <TextView
+            android:id="@+id/txta"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:padding="5dp"
+            android:text="@string/alphabets"
+            android:textColor="#000000"
+            android:textSize="30sp"
+            android:textStyle="bold"/>
+        <ImageButton
+            android:id="@+id/animals"
+            android:layout_width="640dp"
+            android:layout_height="360dp"
+            android:layout_gravity="center"
+            android:contentDescription="@string/animals"
+            android:padding="15dp"
+            android:src="@drawable/animals"
+            android:text="@string/animals"
+            android:textColor="#000000" />
+        <TextView
+            android:id="@+id/txtanimals"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:padding="5dp"
+            android:text="@string/animals"
+            android:textColor="#000000"
+            android:textSize="30sp"
+            android:textStyle="bold"/>
+        <ImageButton
+            android:id="@+id/birds"
+            android:layout_width="640dp"
+            android:layout_height="360dp"
+            android:layout_gravity="center"
+            android:contentDescription="@string/birds"
+            android:padding="15dp"
+            android:src="@drawable/birds"
+            android:text="@string/birds"
+            android:textColor="#000000" />
+        <TextView
+            android:id="@+id/txtb"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:padding="5dp"
+            android:text="@string/birds"
+            android:textColor="#000000"
+            android:textSize="30sp"
+            android:textStyle="bold"/>
+        <ImageButton
+            android:id="@+id/colors"
+            android:layout_width="640dp"
+            android:layout_height="360dp"
+            android:layout_gravity="center"
+            android:contentDescription="@string/colors"
+            android:padding="15dp"
+            android:src="@drawable/colors"
+            android:text="@string/colors"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/txtc"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:padding="5dp"
+            android:text="@string/colors"
+            android:textColor="#000000"
+            android:textSize="30sp"
+            android:textStyle="bold"/>
+
+        <ImageButton
+            android:id="@+id/fruits"
+            android:layout_width="640dp"
+            android:layout_height="360dp"
+            android:layout_gravity="center"
+            android:contentDescription="@string/fruits"
+            android:padding="15dp"
+            android:src="@drawable/fruits"
+            android:text="@string/fruits"
+            android:textColor="#000000" />
+        <TextView
+            android:id="@+id/txtfs"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:padding="5dp"
+            android:text="@string/fruits"
+            android:textColor="#000000"
+            android:textSize="30sp"
+            android:textStyle="bold"/>
+        <ImageButton
+            android:id="@+id/lveg"
+            android:layout_width="640dp"
+            android:layout_height="360dp"
+            android:layout_gravity="center"
+            android:contentDescription="@string/lveg"
+            android:padding="15dp"
+            android:src="@drawable/lveg"
+            android:text="@string/lveg"
+            android:textColor="#000000" />
+        <TextView
+            android:id="@+id/txtlveg"
+            android:layout_width="150dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:padding="5dp"
+            android:text="@string/lveg"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+        <ImageButton
+            android:id="@+id/nos"
+            android:layout_width="640dp"
+            android:layout_height="360dp"
+            android:layout_gravity="center"
+            android:contentDescription="@string/nos"
+            android:padding="15dp"
+            android:src="@drawable/numbers"
+            android:text="@string/nos"
+            android:textColor="#000000" />
+        <TextView
+            android:id="@+id/txtnos"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:padding="5dp"
+            android:text="@string/nos"
+            android:textColor="#000000"
+            android:textSize="30sp"
+            android:textStyle="bold"/>
+        <ImageButton
+            android:id="@+id/shapes"
+            android:layout_width="640dp"
+            android:layout_height="360dp"
+            android:layout_gravity="center"
+            android:contentDescription="@string/shapes"
+            android:padding="15dp"
+            android:src="@drawable/shapes"
+            android:text="@string/shapes"
+            android:textColor="#000000" />
+        <TextView
+            android:id="@+id/txts"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:padding="5dp"
+            android:text="@string/shapes"
+            android:textColor="#000000"
+            android:textSize="30sp"
+            android:textStyle="bold"/>
+
+        <ImageButton
+            android:id="@+id/planets"
+            android:layout_width="640dp"
+            android:layout_height="360dp"
+            android:layout_gravity="center"
+            android:contentDescription="@string/planets"
+            android:padding="15dp"
+            android:src="@drawable/planets"
+            android:text="@string/planets"
+            android:textColor="#000000" />
+        <TextView
+            android:id="@+id/txtps"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:padding="5dp"
+            android:text="@string/planets"
+            android:textColor="#000000"
+            android:textSize="30sp"
+            android:textStyle="bold"/>
+
+
+        <ImageButton
+            android:id="@+id/prof"
+            android:layout_width="640dp"
+            android:layout_height="360dp"
+            android:layout_gravity="center"
+            android:contentDescription="@string/pro"
+            android:padding="15dp"
+            android:src="@drawable/professions"
+            android:text="@string/pro"
+            android:textColor="#000000" />
+        <TextView
+            android:id="@+id/txtprof"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:padding="5dp"
+            android:text="@string/pro"
+            android:textColor="#000000"
+            android:textSize="22sp"
+            android:textStyle="bold"/>
+
+        <ImageButton
+            android:id="@+id/spicies"
+            android:layout_width="640dp"
+            android:layout_height="360dp"
+            android:layout_gravity="center"
+            android:contentDescription="@string/spicies"
+            android:padding="15dp"
+            android:src="@drawable/spicies"
+            android:text="@string/spicies"
+            android:textColor="#000000" />
+        <TextView
+            android:id="@+id/txtspicies"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:padding="5dp"
+            android:text="@string/spicies"
+            android:textColor="#000000"
+            android:textSize="30sp"
+            android:textStyle="bold"/>
+
+        <ImageButton
+            android:id="@+id/veg"
+            android:layout_width="640dp"
+            android:layout_height="360dp"
+            android:layout_gravity="center"
+            android:contentDescription="@string/veg"
+            android:padding="15dp"
+            android:src="@drawable/vegetables"
+            android:text="@string/veg"
+            android:textColor="#000000" />
+        <TextView
+            android:id="@+id/txtveg"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:padding="5dp"
+            android:text="@string/veg"
+            android:textColor="#000000"
+            android:textSize="23sp"
+            android:textStyle="bold"/>
+
+        <ImageButton
+            android:id="@+id/vehicles"
+            android:layout_width="640dp"
+            android:layout_height="360dp"
+            android:layout_gravity="center"
+            android:contentDescription="@string/veh"
+            android:padding="15dp"
+            android:src="@drawable/vehicles"
+            android:text="@string/veh"
+            android:textColor="#000000" />
+        <TextView
+            android:id="@+id/txtveh"
+            android:layout_width="640dp"
+            android:layout_height="360dp"
+            android:layout_gravity="center"
+            android:padding="5dp"
+            android:text="@string/veh"
+            android:textColor="#000000"
+            android:textSize="30sp"
+            android:textStyle="bold"/>
+    </LinearLayout>
+</ScrollView>
+

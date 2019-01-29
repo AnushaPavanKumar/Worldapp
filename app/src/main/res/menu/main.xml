@@ -1,0 +1,90 @@
+<menu 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.pavanusha.worldapp.Telugu" >
+
+ <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"/>
+        
+
+    
+    <item android:id="@+id/alphabets"
+		android:icon="@drawable/alphabets"
+		android:title="@string/alphabets" />
+		
+    
+	<item android:id="@+id/animals"
+		android:icon="@drawable/animals"
+		android:title="@string/animals" 
+		/>
+
+	<item android:id="@+id/bird"
+		android:icon="@drawable/birds"
+		android:title="@string/birds" 
+		/>
+		
+	<item android:id="@+id/colors"
+		android:icon="@drawable/colors"
+		android:title="@string/colors" 
+		/>
+	
+	<item android:id="@+id/fruits"
+		android:icon="@drawable/fruits"
+		android:title="@string/fruits" 
+		/>
+	
+	
+	<item android:id="@+id/lveg"
+		android:icon="@drawable/lveg"
+		android:title="@string/lveg" 
+		/>
+	
+	<item android:id="@+id/nos"
+		android:icon="@drawable/nos"
+		android:title="@string/nos" 
+		/>
+	
+	
+	<item android:id="@+id/planets"
+		android:icon="@drawable/planets"
+		android:title="@string/planets" 
+		/>
+	
+	
+	<item android:id="@+id/pro"
+		android:icon="@drawable/professions"
+		android:title="@string/pro" 
+		/>
+	
+	
+	
+	
+	
+	<item android:id="@+id/shapes"
+		android:icon="@drawable/shapes"
+		android:title="@string/shapes" 
+		/>
+	
+	<item android:id="@+id/spicies"
+		android:icon="@drawable/spicies"
+		android:title="@string/spicies" 
+		/>
+	
+    
+	<item android:id="@+id/vegetables"
+		android:icon="@drawable/vegetables"
+		android:title="@string/veg" 
+		/>
+	
+	
+	<item android:id="@+id/vehicles"
+		android:icon="@drawable/vehicles"
+		android:title="@string/veh" 
+		/>
+	
+    
+    
+</menu>

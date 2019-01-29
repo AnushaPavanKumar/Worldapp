@@ -1,0 +1,9 @@
+﻿Bengali Names of Vegetables
+Potato			আলূ
+Pumpkin			কুমড়ো
+Lady Finger		ঢ্যাঁড়স
+Brinjal			বেগুন
+Snake Gourd		চিচিঙ্গা
+Cauliflower		ফুলকপি
+Cabbage			বাঁধাকপি
+Carrot			গাজর

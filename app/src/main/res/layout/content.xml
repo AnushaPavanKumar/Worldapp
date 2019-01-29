@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+	xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="#DAA534">
+    
+
+<com.google.ads.AdView
+    android:id="@+id/adsView"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    ads:adSize="BANNER"
+    ads:adUnitId="ca-app-pub-7592135326815546/6523025112"
+    ads:loadAdOnCreate="true" />
+
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        tools:ignore="ObsoleteLayoutParam,RtlHardcoded" >
+
+        
+           <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1" >
+
+               
+            <ImageView
+                android:id="@+id/imagenumber"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@drawable/bg_10" 
+                android:contentDescription="@string/img"
+                android:background="#123345" />
+        </TableRow>
+ 		<TableRow
+            android:id="@+id/tableRow2"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+        	android:gravity="center"   >
+
+        <ScrollView >
+ 		    <TextView
+        android:id="@+id/txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:layout_margin="10dp"
+        android:layout_gravity="center"
+        android:gravity="center"  
+        android:textSize="50dp "/>
+        
+ 		    </ScrollView>
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRow3"
+            android:layout_width="500dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="bottom" 
+            android:layout_alignParentBottom="true" >
+
+            <ImageButton
+                android:id="@+id/btnprevious"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:src="@drawable/previous" 
+                android:contentDescription="@string/prv"
+                android:layout_alignParentBottom="true"/>
+    
+        
+
+            <ImageButton
+                android:id="@+id/btnnext"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:contentDescription="@string/nxt"
+                android:src="@drawable/next" 
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"/>
+
+        </TableRow>        
+
+    </TableLayout>
+
+
+</LinearLayout>
+

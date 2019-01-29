@@ -1,0 +1,21 @@
+﻿Shapes
+Circle			বৃত্ত
+Cone			শঙ্কু
+Cylinder		বেলন
+Decagon			ডেকাগোন্
+Diamond			হীরা
+Heart			হৃদয়
+Hexagon			ষড়্ভুজ ক্ষেত্র
+Octagon			অষ্টভুজ
+Oval			উপবৃত্তাকার
+Parallelogram	সমান্তরিক-ক্ষেত্র
+Pentagon		পঁচকোণ
+Rectangle		আয়তক্ষেত্র
+Rhombus			রম্বস
+Heptagon		সমসপ্তভুজ ক্ষেত্র
+Sphere			গোলক
+Star			বর্গক্ষেত্র
+Trapezium		অসমাস্তরাল বাহুবিশিষ্ট চতুর্ভুজ
+Triangle		ত্রিভুজ
+
+

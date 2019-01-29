@@ -1,0 +1,8 @@
+﻿Bengali Fruits
+Grape		আঙ্গূর
+Mango		আম
+Pine Apple	আনারস
+Jack Fruit	কাঁঠাল
+Orange		কমলালেবূ
+Banana		কলা
+Guava		পেয়ারা
