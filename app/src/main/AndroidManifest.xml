@@ -9,149 +9,151 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".SplashScreen">
+        <activity android:name=".SplashScreen"
+            android:screenOrientation="landscape">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MainActivity">
+        <activity android:name=".MainActivity"
+            android:screenOrientation="landscape">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-        <activity android:name=".Bengali" />
-        <activity android:name=".Devanagari" />
-        <activity android:name=".English" />
-        <activity android:name=".Gujarathi" />
-        <activity android:name=".Hindi" />
-        <activity android:name=".Kanada" />
-        <activity android:name=".Malayalam" />
-        <activity android:name=".Tamil" />
-        <activity android:name=".Telugu" />
+        <activity android:name=".Bengali" android:screenOrientation="landscape"/>
+        <activity android:name=".Devanagari" android:screenOrientation="landscape"/>
+        <activity android:name=".English" android:screenOrientation="landscape"/>
+        <activity android:name=".Gujarathi" android:screenOrientation="landscape"/>
+        <activity android:name=".Hindi" android:screenOrientation="landscape"/>
+        <activity android:name=".Kanada" android:screenOrientation="landscape"/>
+        <activity android:name=".Malayalam" android:screenOrientation="landscape"/>
+        <activity android:name=".Tamil" android:screenOrientation="landscape"/>
+        <activity android:name=".Telugu" android:screenOrientation="landscape"/>
 
-        <activity android:name=".Content" />
-        <activity android:name=".EContent" />
+        <activity android:name=".Content" android:screenOrientation="landscape"/>
+        <activity android:name=".EContent" android:screenOrientation="landscape"/>
 
-        <activity android:name=".BAlphabets" />
-        <activity android:name=".BAnimals" />
-        <activity android:name=".BBirds" />
-        <activity android:name=".BColors" />
-        <activity android:name=".BFruits" />
-        <activity android:name=".BLVeg" />
-        <activity android:name=".BNos" />
-        <activity android:name=".BPlanets" />
-        <activity android:name=".BProfessions" />
-        <activity android:name=".BShapes" />
-        <activity android:name=".BSpicies" />
-        <activity android:name=".BVegetables" />
-        <activity android:name=".BVehicles" />
+        <activity android:name=".BAlphabets" android:screenOrientation="landscape"/>
+        <activity android:name=".BAnimals" android:screenOrientation="landscape"/>
+        <activity android:name=".BBirds" android:screenOrientation="landscape"/>
+        <activity android:name=".BColors" android:screenOrientation="landscape"/>
+        <activity android:name=".BFruits" android:screenOrientation="landscape"/>
+        <activity android:name=".BLVeg" android:screenOrientation="landscape"/>
+        <activity android:name=".BNos" android:screenOrientation="landscape"/>
+        <activity android:name=".BPlanets" android:screenOrientation="landscape"/>
+        <activity android:name=".BProfessions" android:screenOrientation="landscape"/>
+        <activity android:name=".BShapes" android:screenOrientation="landscape"/>
+        <activity android:name=".BSpicies" android:screenOrientation="landscape"/>
+        <activity android:name=".BVegetables" android:screenOrientation="landscape"/>
+        <activity android:name=".BVehicles" android:screenOrientation="landscape"/>
 
-        <activity android:name=".EAlphabets" />
-        <activity android:name=".EAnimals" />
-        <activity android:name=".EBirds" />
-        <activity android:name=".EColors" />
-        <activity android:name=".EFruits" />
-        <activity android:name=".ELVeg" />
-        <activity android:name=".ENos" />
-        <activity android:name=".EPlanets" />
-        <activity android:name=".EProfessions" />
-        <activity android:name=".EShapes" />
-        <activity android:name=".ESpicies" />
-        <activity android:name=".EVegetables" />
-        <activity android:name=".EVehicles" />
-
-
-
-        <activity android:name=".GAlphabets" />
-        <activity android:name=".GAnimals" />
-        <activity android:name=".GBirds" />
-        <activity android:name=".GColors" />
-        <activity android:name=".GFruits" />
-        <activity android:name=".GLVeg"/>
-        <activity android:name=".GNos" />
-        <activity android:name=".GPlanets" />
-        <activity android:name=".GProfessions" />
-        <activity android:name=".GShapes" />
-        <activity android:name=".GSpicies" />
-        <activity android:name=".GVegetables" />
-        <activity android:name=".GVehicles" />
-
-        <activity android:name=".HAlphabets" />
-        <activity android:name=".HAnimals" />
-        <activity android:name=".HBirds" />
-        <activity android:name=".HColors" />
-        <activity android:name=".HFruits" />
-        <activity android:name=".HLVeg" />
-        <activity android:name=".HNos" />
-        <activity android:name=".HPlanets" />
-        <activity android:name=".HProfessions" />
-        <activity android:name=".HShapes" />
-        <activity android:name=".HSpicies" />
-        <activity android:name=".HVegetables" />
-        <activity android:name=".HVehicles" />
+        <activity android:name=".EAlphabets" android:screenOrientation="landscape"/>
+        <activity android:name=".EAnimals" android:screenOrientation="landscape"/>
+        <activity android:name=".EBirds" android:screenOrientation="landscape"/>
+        <activity android:name=".EColors" android:screenOrientation="landscape"/>
+        <activity android:name=".EFruits" android:screenOrientation="landscape"/>
+        <activity android:name=".ELVeg" android:screenOrientation="landscape"/>
+        <activity android:name=".ENos" android:screenOrientation="landscape"/>
+        <activity android:name=".EPlanets" android:screenOrientation="landscape"/>
+        <activity android:name=".EProfessions" android:screenOrientation="landscape"/>
+        <activity android:name=".EShapes" android:screenOrientation="landscape"/>
+        <activity android:name=".ESpicies" android:screenOrientation="landscape"/>
+        <activity android:name=".EVegetables" android:screenOrientation="landscape"/>
+        <activity android:name=".EVehicles" android:screenOrientation="landscape"/>
 
 
-        <activity android:name=".KAlphabets" />
-        <activity android:name=".KAnimals" />
-        <activity android:name=".KBirds" />
-        <activity android:name=".KColors" />
-        <activity android:name=".KFruits" />
-        <activity android:name=".KLVeg"/>
-        <activity android:name=".KNos" />
-        <activity android:name=".KPlanets" />
-        <activity android:name=".KProfessions" />
-        <activity android:name=".KShapes" />
-        <activity android:name=".KSpicies" />
-        <activity android:name=".KVegetables" />
-        <activity android:name=".KVehicles" />
 
-        <activity android:name=".Malphabets" />
-        <activity android:name=".MAnimals" />
-        <activity android:name=".MBirds" />
-        <activity android:name=".MColors" />
-        <activity android:name=".MFruits" />
-        <activity android:name=".MLVeg" />
-        <activity android:name=".MNos" />
-        <activity android:name=".MPlanets" />
-        <activity android:name=".MProfessions" />
-        <activity android:name=".MShapes" />
-        <activity android:name=".MSpicies" />
-        <activity android:name=".MVegetables" />
-        <activity android:name=".MVehicles" />
+        <activity android:name=".GAlphabets" android:screenOrientation="landscape"/>
+        <activity android:name=".GAnimals" android:screenOrientation="landscape"/>
+        <activity android:name=".GBirds" android:screenOrientation="landscape"/>
+        <activity android:name=".GColors" android:screenOrientation="landscape"/>
+        <activity android:name=".GFruits" android:screenOrientation="landscape"/>
+        <activity android:name=".GLVeg" android:screenOrientation="landscape"/>
+        <activity android:name=".GNos" android:screenOrientation="landscape"/>
+        <activity android:name=".GPlanets" android:screenOrientation="landscape"/>
+        <activity android:name=".GProfessions" android:screenOrientation="landscape"/>
+        <activity android:name=".GShapes" android:screenOrientation="landscape"/>
+        <activity android:name=".GSpicies" android:screenOrientation="landscape"/>
+        <activity android:name=".GVegetables" android:screenOrientation="landscape"/>
+        <activity android:name=".GVehicles" android:screenOrientation="landscape"/>
 
-        <activity android:name=".TAlphabets"/>
-        <activity android:name=".TAnimals" />
-        <activity android:name=".TBirds" />
-        <activity android:name=".TColors" />
-        <activity android:name=".TFruits" />
-        <activity android:name=".TLVeg" />
-        <activity android:name=".TNos" />
-        <activity android:name=".TPlanets" />
-        <activity android:name=".TProfessions" />
-        <activity android:name=".TShapes" />
-        <activity android:name=".TSpicies" />
-        <activity android:name=".TVegetables" />
-        <activity android:name=".TVehicles" />
+        <activity android:name=".HAlphabets" android:screenOrientation="landscape"/>
+        <activity android:name=".HAnimals" android:screenOrientation="landscape"/>
+        <activity android:name=".HBirds" android:screenOrientation="landscape"/>
+        <activity android:name=".HColors" android:screenOrientation="landscape"/>
+        <activity android:name=".HFruits" android:screenOrientation="landscape"/>
+        <activity android:name=".HLVeg" android:screenOrientation="landscape"/>
+        <activity android:name=".HNos" android:screenOrientation="landscape"/>
+        <activity android:name=".HPlanets" android:screenOrientation="landscape"/>
+        <activity android:name=".HProfessions" android:screenOrientation="landscape"/>
+        <activity android:name=".HShapes" android:screenOrientation="landscape"/>
+        <activity android:name=".HSpicies" android:screenOrientation="landscape"/>
+        <activity android:name=".HVegetables" android:screenOrientation="landscape"/>
+        <activity android:name=".HVehicles" android:screenOrientation="landscape"/>
 
 
-        <activity android:name=".TelAlphabets" />
-        <activity android:name=".TelAnimals" />
-        <activity android:name=".TelBirds" />
-        <activity android:name=".TelColors" />
-        <activity android:name=".TelFruits" />
-        <activity android:name=".TelLVeg"/>
-        <activity android:name=".TelNos" />
-        <activity android:name=".TelPlanets" />
-        <activity android:name=".TelProfessions" />
-        <activity android:name=".TelRelations" />
-        <activity android:name=".TelShapes" />
-        <activity android:name=".TelSpicies" />
-        <activity android:name=".TelVegetables" />
-        <activity android:name=".TelVehicles" />
+        <activity android:name=".KAlphabets" android:screenOrientation="landscape"/>
+        <activity android:name=".KAnimals" android:screenOrientation="landscape"/>
+        <activity android:name=".KBirds" android:screenOrientation="landscape"/>
+        <activity android:name=".KColors" android:screenOrientation="landscape"/>
+        <activity android:name=".KFruits" android:screenOrientation="landscape"/>
+        <activity android:name=".KLVeg" android:screenOrientation="landscape"/>
+        <activity android:name=".KNos" android:screenOrientation="landscape"/>
+        <activity android:name=".KPlanets" android:screenOrientation="landscape"/>
+        <activity android:name=".KProfessions" android:screenOrientation="landscape"/>
+        <activity android:name=".KShapes" android:screenOrientation="landscape"/>
+        <activity android:name=".KSpicies" android:screenOrientation="landscape"/>
+        <activity android:name=".KVegetables" android:screenOrientation="landscape"/>
+        <activity android:name=".KVehicles" android:screenOrientation="landscape"/>
+
+        <activity android:name=".Malphabets" android:screenOrientation="landscape"/>
+        <activity android:name=".MAnimals" android:screenOrientation="landscape"/>
+        <activity android:name=".MBirds" android:screenOrientation="landscape"/>
+        <activity android:name=".MColors" android:screenOrientation="landscape"/>
+        <activity android:name=".MFruits" android:screenOrientation="landscape"/>
+        <activity android:name=".MLVeg" android:screenOrientation="landscape"/>
+        <activity android:name=".MNos" android:screenOrientation="landscape"/>
+        <activity android:name=".MPlanets" android:screenOrientation="landscape"/>
+        <activity android:name=".MProfessions" android:screenOrientation="landscape" />
+        <activity android:name=".MShapes" android:screenOrientation="landscape"/>
+        <activity android:name=".MSpicies" android:screenOrientation="landscape"/>
+        <activity android:name=".MVegetables" android:screenOrientation="landscape"/>
+        <activity android:name=".MVehicles" android:screenOrientation="landscape"/>
+
+        <activity android:name=".TAlphabets" android:screenOrientation="landscape"/>
+        <activity android:name=".TAnimals" android:screenOrientation="landscape"/>
+        <activity android:name=".TBirds" android:screenOrientation="landscape"/>
+        <activity android:name=".TColors" android:screenOrientation="landscape"/>
+        <activity android:name=".TFruits" android:screenOrientation="landscape"/>
+        <activity android:name=".TLVeg" android:screenOrientation="landscape"/>
+        <activity android:name=".TNos" android:screenOrientation="landscape"/>
+        <activity android:name=".TPlanets" android:screenOrientation="landscape"/>
+        <activity android:name=".TProfessions" android:screenOrientation="landscape"/>
+        <activity android:name=".TShapes" android:screenOrientation="landscape"/>
+        <activity android:name=".TSpicies" android:screenOrientation="landscape"/>
+        <activity android:name=".TVegetables" android:screenOrientation="landscape"/>
+        <activity android:name=".TVehicles" android:screenOrientation="landscape"/>
+
+
+        <activity android:name=".TelAlphabets" android:screenOrientation="landscape"/>
+        <activity android:name=".TelAnimals" android:screenOrientation="landscape"/>
+        <activity android:name=".TelBirds" android:screenOrientation="landscape"/>
+        <activity android:name=".TelColors" android:screenOrientation="landscape"/>
+        <activity android:name=".TelFruits" android:screenOrientation="landscape"/>
+        <activity android:name=".TelLVeg" android:screenOrientation="landscape"/>
+        <activity android:name=".TelNos" android:screenOrientation="landscape"/>
+        <activity android:name=".TelPlanets" android:screenOrientation="landscape"/>
+        <activity android:name=".TelProfessions" android:screenOrientation="landscape"/>
+        <activity android:name=".TelRelations" android:screenOrientation="landscape"/>
+        <activity android:name=".TelShapes" android:screenOrientation="landscape"/>
+        <activity android:name=".TelSpicies" android:screenOrientation="landscape"/>
+        <activity android:name=".TelVegetables" android:screenOrientation="landscape"/>
+        <activity android:name=".TelVehicles" android:screenOrientation="landscape"/>
     </application>
 
 

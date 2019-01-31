@@ -67,6 +67,8 @@ public class TelPlanets extends Activity {
         adapter = new ViewPagerAdapter(this, category,  flag);
         // Binds the Adapter to the ViewPager
         viewPager.setAdapter(adapter);
+        viewPager.setBackgroundResource(R.drawable.solar_bg);
+
 
     }
     public void onBackPressed()

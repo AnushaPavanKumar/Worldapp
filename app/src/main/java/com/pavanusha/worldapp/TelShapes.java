@@ -100,6 +100,7 @@ public class TelShapes extends Activity {
         adapter = new ViewPagerAdapter(this, category,  flag);
         // Binds the Adapter to the ViewPager
         viewPager.setAdapter(adapter);
+        viewPager.setBackgroundResource(R.drawable.shape_bg);
 
     }
     public void onBackPressed()

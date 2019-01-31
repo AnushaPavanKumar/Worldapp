@@ -73,6 +73,7 @@ public class TelColors extends Activity {
         adapter = new ViewPagerAdapter(this, category,  flag);
         // Binds the Adapter to the ViewPager
         viewPager.setAdapter(adapter);
+        viewPager.setBackgroundResource(R.drawable.colors_bg);
 
     }
     public void onBackPressed()

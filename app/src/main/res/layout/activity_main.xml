@@ -16,22 +16,21 @@
         android:orientation="vertical"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:layout_weight="1"
+        android:layout_weight="0.5"
         android:padding="6dip">
 
 
-        <LinearLayout
-            android:orientation="horizontal"
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:layout_weight="1">
 
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5">
             <Button
                 android:id="@+id/Bengali"
                 style="@style/HomeButton"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:drawableTop="@drawable/bengali"
                 android:onClick="onButtonClicker"
                 android:text="@string/ben"
                 android:textColor="#ffffff"/>
@@ -41,7 +40,6 @@
                 style="@style/HomeButton"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:drawableTop="@drawable/devanagiri"
                 android:onClick="onButtonClicker"
                 android:text="@string/sans"
                 android:textColor="#ffffff" />
@@ -51,33 +49,24 @@
                 style="@style/HomeButton"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:drawableTop="@drawable/english"
                 android:onClick="onButtonClicker"
                 android:text="@string/eng"
                 android:textColor="#ffffff"/>
 
         </LinearLayout>
 
-        <LinearLayout
-            android:orientation="horizontal"
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:layout_weight="1">
-
-        </LinearLayout>
 
         <LinearLayout
             android:orientation="horizontal"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:layout_weight="1">
+            android:layout_weight="0.5">
 
             <Button
                 android:id="@+id/Gujarathi"
                 style="@style/HomeButton"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:drawableTop="@drawable/gujarathi"
                 android:onClick="onButtonClicker"
                 android:text="@string/guj"
                 android:textColor="#ffffff"/>
@@ -87,7 +76,6 @@
                 style="@style/HomeButton"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:drawableTop="@drawable/hindi"
                 android:onClick="onButtonClicker"
                 android:text="@string/hin"
                 android:textColor="#ffffff"/>
@@ -97,7 +85,6 @@
                 style="@style/HomeButton"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:drawableTop="@drawable/kannada"
                 android:onClick="onButtonClicker"
                 android:text="@string/kan"
                 android:textColor="#ffffff"/>
@@ -108,22 +95,13 @@
             android:orientation="horizontal"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:layout_weight="1">
-
-        </LinearLayout>
-
-        <LinearLayout
-            android:orientation="horizontal"
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:layout_weight="1">
+            android:layout_weight="0.5">
 
             <Button
                 android:id="@+id/Malayalam"
                 style="@style/HomeButton"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:drawableTop="@drawable/malayalam"
                 android:onClick="onButtonClicker"
                 android:text="@string/mal"
                 android:textColor="#ffffff"/>
@@ -133,7 +111,6 @@
                 style="@style/HomeButton"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:drawableTop="@drawable/tamil"
                 android:onClick="onButtonClicker"
                 android:text="@string/tam"
                 android:textColor="#ffffff"/>
@@ -143,7 +120,6 @@
                 style="@style/HomeButton"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:drawableTop="@drawable/telugu"
                 android:onClick="onButtonClicker"
                 android:text="@string/tel"
                 android:textColor="#ffffff"/>

@@ -113,6 +113,8 @@ public class TelBirds extends Activity {
         // Binds the Adapter to the ViewPager
         viewPager.setAdapter(adapter);
 
+        viewPager.setBackgroundResource(R.drawable.birds_bg);
+
     }
     public void onBackPressed()
     {

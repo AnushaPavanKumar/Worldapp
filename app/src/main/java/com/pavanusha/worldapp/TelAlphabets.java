@@ -25,6 +25,8 @@ public class TelAlphabets extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.malayalam);
 
+
+
         Intent i = getIntent();
         String title= i.getExtras().getString("title");
         setTitle(title);
@@ -158,6 +160,7 @@ public class TelAlphabets extends Activity {
         adapter = new ViewPagerAdapter(TelAlphabets.this, category,  flag);
         // Binds the Adapter to the ViewPager
         viewPager.setAdapter(adapter);
+        viewPager.setBackgroundResource(R.drawable.bga);
 
     }
     public void onBackPressed()
