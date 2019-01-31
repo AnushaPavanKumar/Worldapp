@@ -1,156 +1,86 @@
 package com.pavanusha.worldapp;
+
+
 import android.app.Activity;
 import android.content.Intent;
-import android.graphics.Typeface;
 import android.os.Bundle;
-import android.view.View;
-import android.view.View.OnClickListener;
-import android.widget.ImageButton;
-import android.widget.ImageView;
-import android.widget.TextView;
+import android.support.v4.view.PagerAdapter;
+import android.support.v4.view.ViewPager;
+import android.widget.Toast;
 
 
-public class GColors extends Activity implements OnClickListener
-{
-    TextView txtContent;
-    private ImageView imagenumber;
-    private ImageButton btnprevious,  btnnext;
-    private int screennumber=0;
+public class GColors extends Activity {
+
+    // Declare Variables
+    ViewPager viewPager;
+    PagerAdapter adapter;
+    String[] category;
+    int[] flag;
+
+
     @Override
     public void onCreate(Bundle savedInstanceState)
     {
+
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.content);
+        setContentView(R.layout.malayalam);
 
         Intent i = getIntent();
         String title= i.getExtras().getString("title");
         setTitle(title);
-        txtContent = (TextView) findViewById(R.id.txt);
-        Typeface font ;
-        font = Typeface.createFromAsset(getAssets(), "Lohit-Gujarati.ttf");
-        txtContent.setTypeface(font);
 
 
-        imagenumber=(ImageView)findViewById(R.id.imagenumber);
-        imagenumber.setImageResource(R.drawable.black);
-        txtContent.setText("કાળુ");
 
-        //initialize the object for the button
-        btnprevious=(ImageButton)findViewById(R.id.btnprevious);
-        //this button will innitially be disabled
-        btnprevious.setEnabled(false);
-        //add listener to the button
-        btnprevious.setOnClickListener(this);
+        // Generate sample data
+        category = new String[]
+                {
+                        "કાળુ",
+                        "ભૂરું ",
+                        "ભુરો",
+                        "સોનેરી",
+                        "રાખોડી",
+                        "લીલું",
+                        "નારંગી",
+                        "ગુલાબી",
+                        "લાલ ",
+                        "ચાંદી રંગ",
+                        "જાબુડિયું ",
+                        "સફેદ" ,
+                        "પીળું",
 
-        btnnext=(ImageButton)findViewById(R.id.btnnext);
-        btnnext.setOnClickListener(this);
+                };
 
-    }//end onCreate
+        flag = new int[]
+                {
+                        R.drawable.black,
+                        R.drawable.blue,
+                        R.drawable.brown,
+                        R.drawable.gold,
+                        R.drawable.gray,
+                        R.drawable.green,
+                        R.drawable.orange,
+                        R.drawable.pink,
+                        R.drawable.red,
+                        R.drawable.silver,
+                        R.drawable.violet,
+                        R.drawable.white,
+                        R.drawable.yellow,
+                };
 
-    //this method is to handle button click
-    public void onClick(View arg0)
+        // Locate the ViewPager in viewpager_main.xml
+        viewPager = (ViewPager) findViewById(R.id.pager);
+        // Pass results to ViewPagerAdapter Class
+        adapter = new ViewPagerAdapter(this, category,  flag);
+        // Binds the Adapter to the ViewPager
+        viewPager.setAdapter(adapter);
+        viewPager.setBackgroundResource(R.drawable.colors_bg);
+
+    }
+    public void onBackPressed()
     {
+        Toast.makeText(getBaseContext(), "Please Press Again", Toast.LENGTH_SHORT).show();
+        finish();
 
-        //when btnprevious is clicked
-        if(arg0.getId()==R.id.btnprevious)
-        {
-            screennumber--;//minus 1 to the screennumber
-            changeNumber(screennumber);
-            if(screennumber==0)
-            {
-                //disable btnprevious
-                btnprevious.setEnabled(false);
-            }
-            else
-            {
-                //enable btnprevious
-                btnprevious.setEnabled(true);
-            }
-            changeNumber(screennumber);
-            btnnext.setEnabled(true);
-        }
 
-        //when btnnext is clicked
-        else if(arg0.getId()==R.id.btnnext)
-        {
-            screennumber++;//add 1 to the screennumber
-            changeNumber(screennumber);
-            if(screennumber==13)
-            {
-                //disable btnprevious
-                btnnext.setEnabled(false);
-            }
-            else
-            {
-                //enable btnprevious
-                btnnext.setEnabled(true);
-            }
-            changeNumber(screennumber);
-            btnprevious.setEnabled(true);
-
-        }
-
-    }//end onClick
-
-    //this method is to change the number that appear on the screen
-    //after navigation button is clicked
-    private void changeNumber(int screen)
-    {
-        switch (screen)
-        {
-            case 0:
-                imagenumber.setImageResource(R.drawable.black);
-                txtContent.setText("કાળુ");
-                break;
-            case 1:
-                imagenumber.setImageResource(R.drawable.blue);
-                txtContent.setText("ભૂરું");
-                break;
-            case 2:
-                imagenumber.setImageResource(R.drawable.brown);
-                txtContent.setText("ભુરો");
-                break;
-            case 3:
-                imagenumber.setImageResource(R.drawable.gold);
-                txtContent.setText("સોનેરી");
-                break;
-            case 4:
-                imagenumber.setImageResource(R.drawable.gray);
-                txtContent.setText("રાખોડી");
-                break;
-            case 5:
-                imagenumber.setImageResource(R.drawable.green);
-                txtContent.setText("લીલું");
-                break;
-            case 6:
-                imagenumber.setImageResource(R.drawable.orange);
-                txtContent.setText("નારંગી");
-                break;
-            case 7:
-                imagenumber.setImageResource(R.drawable.pink);
-                txtContent.setText("ગુલાબી");
-                break;
-            case 8:
-                imagenumber.setImageResource(R.drawable.red);
-                txtContent.setText("લાલ");
-                break;
-            case 9:
-                imagenumber.setImageResource(R.drawable.silver);
-                txtContent.setText("ચાંદી રંગ");
-                break;
-            case 10:
-                imagenumber.setImageResource(R.drawable.violet);
-                txtContent.setText("જાબુડિયું");
-                break;
-            case 11:
-                imagenumber.setImageResource(R.drawable.white);
-                txtContent.setText("સફેદ");
-                break;
-            case 12:
-                imagenumber.setImageResource(R.drawable.yellow);
-                txtContent.setText("પીળું");
-                break;
-
-        }
-    }//end changeNumber
+    }
 }
