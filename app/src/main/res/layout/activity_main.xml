@@ -3,7 +3,7 @@
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     android:orientation="vertical"
-    android:background="@drawable/bga">
+    android:background="@drawable/category_bg">
 
     <!-- Included header.xml here -->
     <ViewStub android:id="@+id/vsHeader"
@@ -33,7 +33,7 @@
                 android:layout_height="wrap_content"
                 android:onClick="onButtonClicker"
                 android:text="@string/ben"
-                android:textColor="#ffffff"/>
+                android:textColor="#000"/>
 
             <Button
                 android:id="@+id/Devanagari"
@@ -42,7 +42,7 @@
                 android:layout_height="wrap_content"
                 android:onClick="onButtonClicker"
                 android:text="@string/sans"
-                android:textColor="#ffffff" />
+                android:textColor="#000" />
 
             <Button
                 android:id="@+id/English"
@@ -51,7 +51,7 @@
                 android:layout_height="wrap_content"
                 android:onClick="onButtonClicker"
                 android:text="@string/eng"
-                android:textColor="#ffffff"/>
+                android:textColor="#000"/>
 
         </LinearLayout>
 
@@ -69,7 +69,7 @@
                 android:layout_height="wrap_content"
                 android:onClick="onButtonClicker"
                 android:text="@string/guj"
-                android:textColor="#ffffff"/>
+                android:textColor="#000"/>
 
             <Button
                 android:id="@+id/hindi"
@@ -78,7 +78,7 @@
                 android:layout_height="wrap_content"
                 android:onClick="onButtonClicker"
                 android:text="@string/hin"
-                android:textColor="#ffffff"/>
+                android:textColor="#000"/>
 
             <Button
                 android:id="@+id/Kannada"
@@ -87,7 +87,7 @@
                 android:layout_height="wrap_content"
                 android:onClick="onButtonClicker"
                 android:text="@string/kan"
-                android:textColor="#ffffff"/>
+                android:textColor="#000"/>
 
         </LinearLayout>
 
@@ -104,7 +104,7 @@
                 android:layout_height="wrap_content"
                 android:onClick="onButtonClicker"
                 android:text="@string/mal"
-                android:textColor="#ffffff"/>
+                android:textColor="#000"/>
 
             <Button
                 android:id="@+id/Tamil"
@@ -113,7 +113,7 @@
                 android:layout_height="wrap_content"
                 android:onClick="onButtonClicker"
                 android:text="@string/tam"
-                android:textColor="#ffffff"/>
+                android:textColor="#000"/>
 
             <Button
                 android:id="@+id/Telugu"
@@ -122,7 +122,7 @@
                 android:layout_height="wrap_content"
                 android:onClick="onButtonClicker"
                 android:text="@string/tel"
-                android:textColor="#ffffff"/>
+                android:textColor="#000"/>
 
         </LinearLayout>
 

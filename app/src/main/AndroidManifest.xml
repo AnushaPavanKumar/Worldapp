@@ -25,6 +25,17 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
+        <activity android:name=".TodoBengali" android:screenOrientation="landscape"/>
+        <activity android:name=".TodoDevanagari" android:screenOrientation="landscape"/>
+        <activity android:name=".TodoEnglish" android:screenOrientation="landscape"/>
+        <activity android:name=".TodoGujarathi" android:screenOrientation="landscape"/>
+        <activity android:name=".TodoHindi" android:screenOrientation="landscape"/>
+        <activity android:name=".TodoKannada" android:screenOrientation="landscape"/>
+        <activity android:name=".TodoMalayalam" android:screenOrientation="landscape"/>
+        <activity android:name=".TodoTamil" android:screenOrientation="landscape"/>
+        <activity android:name=".TodoTelugu" android:screenOrientation="landscape"/>
+        <activity android:name=".Write" android:screenOrientation="landscape"/>
+        <activity android:name=".Play" android:screenOrientation="landscape"/>
         <activity android:name=".Bengali" android:screenOrientation="landscape"/>
         <activity android:name=".Devanagari" android:screenOrientation="landscape"/>
         <activity android:name=".English" android:screenOrientation="landscape"/>

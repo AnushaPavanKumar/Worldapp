@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@drawable/todo_bg"
+    android:layout_height="match_parent">
+<TableLayout
+    android:layout_gravity="center"
+    android:layout_width="200dp"
+    android:layout_height="400dp">
+
+
+    <Button
+        android:id="@+id/learn_devanagari"
+        style="@style/HomeButton"
+        android:layout_width="40dp"
+        android:layout_height="20dp"
+        android:onClick="onButtonClicker"
+        android:background="@drawable/btn_learn"/>
+
+    <Button
+        android:id="@+id/write_bengali"
+        style="@style/HomeButton"
+        android:layout_width="40dp"
+        android:layout_height="20dp"
+        android:onClick="onButtonClicker"
+        android:background="@drawable/btn_write"/>
+
+    <Button
+        android:id="@+id/play_bengali"
+        style="@style/HomeButton"
+        android:background="@drawable/btn_play"
+        android:onClick="onButtonClicker"
+        android:layout_width="40dp"
+        android:layout_height="20dp"/>
+</TableLayout>
+    <ImageView
+        android:src="@drawable/bga"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>

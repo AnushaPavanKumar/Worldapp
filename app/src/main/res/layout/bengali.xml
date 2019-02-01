@@ -189,13 +189,13 @@
                     android:textColor="#000000" />
                 <TextView
                     android:id="@+id/txtlveg"
-                    android:layout_width="150dp"
+                    android:layout_width="250dp"
                     android:layout_height="60dp"
                     android:layout_gravity="center"
                     android:padding="5dp"
                     android:text="@string/lveg"
                     android:textColor="#000000"
-                    android:textSize="20sp"
+                    android:textSize="30sp"
                     android:textStyle="bold"/>
 
             </LinearLayout>
@@ -406,13 +406,13 @@
                     android:textColor="#000000" />
                 <TextView
                     android:id="@+id/txtveh"
-                    android:layout_width="640dp"
-                    android:layout_height="360dp"
+                    android:layout_width="150dp"
+                    android:layout_height="50dp"
                     android:layout_gravity="center"
                     android:padding="5dp"
                     android:text="@string/veh"
                     android:textColor="#000000"
-                    android:textSize="30sp"
+                    android:textSize="23sp"
                     android:textStyle="bold"/>
             </LinearLayout>
         </TableRow>
