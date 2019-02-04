@@ -160,7 +160,7 @@ public class TelAlphabets extends Activity {
         adapter = new ViewPagerAdapter(TelAlphabets.this, category,  flag);
         // Binds the Adapter to the ViewPager
         viewPager.setAdapter(adapter);
-        viewPager.setBackgroundResource(R.drawable.bga);
+        viewPager.setBackgroundResource(R.drawable.alphabets_bg);
 
     }
     public void onBackPressed()
