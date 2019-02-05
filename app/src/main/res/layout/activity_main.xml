@@ -6,11 +6,14 @@
     android:background="@drawable/category_bg">
 
     <!-- Included header.xml here -->
-    <ViewStub android:id="@+id/vsHeader"
-        android:inflatedId="@+id/header"
-        android:layout_width="fill_parent"
+
+
+    <ViewStub
         android:layout_height="wrap_content"
-        android:layout="@layout/header" />
+        android:layout_width="fill_parent"
+        android:layout="@layout/header"
+        android:inflatedId="@+id/header"
+        android:id="@+id/vsHeader"/>
 
     <LinearLayout
         android:orientation="vertical"

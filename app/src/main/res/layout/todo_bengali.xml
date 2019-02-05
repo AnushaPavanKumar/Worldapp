@@ -1,20 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:background="@drawable/main_bg"
+    android:background="@drawable/background"
     android:layout_height="match_parent">
 <TableLayout
-    android:background="@drawable/redscreen"
+
     android:layout_gravity="center"
-    android:layout_width="200dp"
-    android:layout_height="400dp">
+    android:layout_marginLeft="250dp"
+    android:layout_width="150dp"
+    android:layout_height="300dp">
 
 
     <Button
         android:id="@+id/learn_bengali"
         style="@style/HomeButton"
-        android:layout_width="40dp"
-        android:layout_height="20dp"
+        android:layout_width="20dp"
+        android:layout_height="10dp"
         android:onClick="onButtonClicker"
         android:background="@drawable/btn_learn"/>
 
@@ -34,8 +35,4 @@
         android:layout_width="40dp"
         android:layout_height="20dp"/>
 </TableLayout>
-    <ImageView
-        android:src="@drawable/background"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent" />
 </LinearLayout>

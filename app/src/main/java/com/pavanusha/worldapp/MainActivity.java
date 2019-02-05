@@ -1,5 +1,7 @@
 package com.pavanusha.worldapp;
 
+import android.graphics.Color;
+import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.app.AlertDialog;
 import android.content.DialogInterface;
@@ -7,14 +9,21 @@ import android.content.Intent;
 import android.view.View;
 import android.widget.Toast;
 
+//import com.hitomi.cmlibrary.CircleMenu;
+
 public class MainActivity extends DashBoardActivity {
 
+    MediaPlayer mysong;
     String title;
     @Override
     public void onCreate(Bundle savedInstanceState)
     {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        mysong=MediaPlayer.create(MainActivity.this,R.raw.music);
+        mysong.start();
+
 
     }
 
@@ -90,7 +99,16 @@ public class MainActivity extends DashBoardActivity {
             default:
                 break;
         }
+
     }
+
+    @Override
+    protected void onPause() {
+        super.onPause();
+        mysong.release();
+    }
+
+
 
     public void onBackPressed() {
         new AlertDialog.Builder(this).setIcon(R.drawable.ic_launcher).setTitle("Confirm")
